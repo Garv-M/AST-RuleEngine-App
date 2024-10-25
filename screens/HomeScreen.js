@@ -14,12 +14,12 @@ export default function HomeScreen({ navigation }) {
         <Text style={styles.buttonText}>Combine Rules</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('CombineAllRules')}>
-        <Text style={styles.buttonText}>Combine All Rules</Text>
-      </TouchableOpacity>
-
       <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('EvaluateRule')}>
         <Text style={styles.buttonText}>Evaluate Rule</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('RulesList')}>
+        <Text style={styles.buttonText}>Get All Rules</Text>
       </TouchableOpacity>
     </View>
   );
