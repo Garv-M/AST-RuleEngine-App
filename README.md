@@ -25,14 +25,13 @@ https://youtu.be/Y23-LTRAWsM?si=ABVrp2SRyRXrzZvo
 3. **Install some Dependencies**
    ```bash
    npm install
+4. **API Base URL configuration** <br><br>
+   Change the BaseURL at ```API/api.js```
    
-3. **Run the Frontend App**
+5. **Run the Frontend App**
    ```bash
    npm run start
 ### The terminal will look like this: <br>
 ![image](https://github.com/user-attachments/assets/50cc514d-2de7-4e97-b6dc-b770072146bb)
 <br>
 - Scan the QR from the Expo app on your phone, the AST Frontend app will start running on the phone. 
-
-## API Base URL configuration 
-Change the BaseURL at ```API/api.js```
